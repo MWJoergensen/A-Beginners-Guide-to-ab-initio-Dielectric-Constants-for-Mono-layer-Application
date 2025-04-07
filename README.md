@@ -7,9 +7,9 @@ Python:
 
 Gaussian:
 * The .txt files are example input files for Gaussian16, covering:
- - Geometry optimization
- - Volume calculation
- - Static polarizability
- - Dynamic polarizability
- - Static polarizability under an applied field
+  - Geometry optimization
+  - Volume calculation
+  - Static polarizability
+  - Dynamic polarizability
+  - Static polarizability under an applied field
 * If you plan to run these in Gaussian, make sure to convert the files from .txt to .com format.
