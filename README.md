@@ -1,7 +1,15 @@
 In this folder you will find different files. 
 
 Python:
-The python file is a script that takes two electron density files and calculates the observable dielectric constant and plots the local dielectric profile. While this script is designed for the file format of QuantumATK, the first part where the file is opened and the data is sorted into arrays can simply be adjusted to fit any format. Just remember to also adjust the unit conversions accordingly. ATK provides the length in bohr and electron density in 1/bohr$^3$. 
+* The python script processes two electron density files to compute the observable dielectric constant and plots the local dielectric profile. 
+* While the script is tailored for QuantumATK file formats, the input section can be easily modified to support other formats. Just be sure to adjust the unit conversions accordingly. 
+* In QuantumATK, lengths are given in bohr and electron densities in 1/bohr^3. 
 
 Gaussian:
-The text files in this folder is example input files for Gaussian16. There is a geometry optimization, volume calulation, static polarizability, dynamic polarizability and a file for the static polarizability calculated at a given field strength. If these files are to be run in Gaussian, remember to convert the file to .com files for execution. 
+* The .txt files are example input files for Gaussian16, covering:
+ * Geometry optimization
+ * Volume calculation
+ * Static polarizability
+ * Dynamic polarizability
+ * Static polarizability under an applied field
+* If you plan to run these in Gaussian, make sure to convert the files from .txt to .com format.
